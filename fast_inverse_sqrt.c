@@ -1,4 +1,5 @@
 float fast_isqrt(float num){
+    //this function returns 1/sqrt(num) using only multiplications, additions and bit shifts.
     long i;
     float x2, y;
     const float threehalfs = 1.5F;
